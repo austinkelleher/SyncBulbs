@@ -1,0 +1,9 @@
+{
+    "name": "SyncBulbs",
+    "description": "Synchronized Christmas bulbs. Festive.",
+    "author": "Austin Kelleher <a@alk.im>",
+    "dependencies": {
+        "express": ">= 4.10.6",
+        "socket.io": ">= 1.2.1"
+    }
+}
