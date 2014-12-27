@@ -1,9 +1,9 @@
 var express 	= require('express'),
-		app 	= express(),
-		path 	= require('path'),
-		http 	= require('http').Server(app),
-		io 		= require('socket.io')(http),
-		config 	= require('./config');
+    app     	= express(),
+    path 	= require('path'),
+    http 	= require('http').Server(app),
+    io 		= require('socket.io')(http),
+    config 	= require('./config');
 
 /**
 * Array of color hex values
